@@ -66,28 +66,29 @@ Alternatively, __underscores__ can be used or **_combined_** with asterisks.
 
 ## Lists [(up)](#table-of-contents)
 
-Creating unordered list can be done with `*`, `-`, or `+`.<br>
+Creating unordered list can be done with `*`, `-`, or `+`.
 Ordered lists are created by using numbers.
+To create nested lists indent the sublist items.
 ```
 1. First ordered list item
 2. Second ordered list item
 
 * First unordered list item
-+ Second
-- Third
+    + Sublist item 1
+    - Sublist item 2
 ```
-1. First ordered list item
-2. Second ordered list item
+ 1. First ordered list item
+ 2. Second ordered list item
 
 * First unordered list item
-+ Second
-- Third
+    + Sublist item 1
+    - Sublist item 2
 
 
 ## Tables [(up)](#table-of-contents)
 
-Table columns are separated by pipes (`|`).<br>
-First row contains the headers. Second row has to have at least 3 dashes (`---`) for each column.<br>
+Table columns are separated by pipes (`|`).  
+First row contains the headers. Second row has to have at least 3 dashes (`---`) for each column.  
 Colons (`:`) are used on the second row for alignment (default is left).
 ```
 Left alignment | Centered | Right
@@ -103,7 +104,7 @@ __row 4__      |     3    |   4
 
 ## Code and Syntax highlighting [(up)](#table-of-contents)
 
-Inline code has one back-tick around it.<br>
+Inline code has one back-tick around it.  
 Multiline code is surrounded by three back-ticks. (example uses 2 because they can't be nested...)
 ```
 This `is inline` code.
@@ -202,20 +203,20 @@ XML | `xml`
 ```html
 Paragraphs are separated with an empty line between them.
 
-To get text on the following line use the HTML `<br>` tag. <br>
+To get text on the following line (line break) end the current line with two trailing spaces or use the HTML `<br>` tag. <br>
 Like this.
 Otherwise, text gets typed on the same line.
 <br> <br> <br>
-Use more `<br>` tags for more than one line between paragraphs.
+Use more `<br>` tags to insert more empty lines between paragraphs.
 ```
 
 Paragraphs are separated with an empty line between them.
 
-To get text on the following line use the HTML `<br>` tag. <br>
+To get text on the following line (line break) end the current line with two trailing spaces or use the HTML `<br>` tag. <br>
 Like this.
 Otherwise, text gets typed on the same line.
 <br> <br> <br>
-Use more `<br>` tags for more than one line between paragraphs.
+Use more `<br>` tags to insert more empty lines between paragraphs.
 
 
 ## HTML styling [(up)](#table-of-contents)
