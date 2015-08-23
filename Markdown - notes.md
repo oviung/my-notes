@@ -199,7 +199,7 @@ XML | `xml`
 
 ## Line breaks [(up)](#table-of-contents)
 
-```
+```html
 Paragraphs are separated with an empty line between them.
 
 To get text on the following line use the HTML `<br>` tag. <br>
