@@ -84,6 +84,16 @@ To create nested lists indent the sublist items.
     + Sublist item 1
     - Sublist item 2
 
+### Task lists (lists with checkboxes)
+
+```
+* [x] task 1
+* [x] task 2
+* [ ] task 3
+```
+* [x] task 1
+* [x] task 2
+* [ ] task 3
 
 ## Tables [(up)](#table-of-contents)
 
