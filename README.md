@@ -1,3 +1,4 @@
 # Notes
 
-* [Markdown](./Markdown%20-%20notes.md)
+* [Git](./Git_notes.md)
+* [Markdown](./Markdown_notes.md)
