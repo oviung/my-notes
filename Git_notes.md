@@ -9,8 +9,8 @@
 
 Store the username & password for working with HTTPS:  
 https://help.github.com/articles/caching-your-github-password-in-git/#platform-linux  
-Linux:
-1. `git config --global credential.helper cache` -  set git to use the credential memory cache
+Linux:  
+1. `git config --global credential.helper cache` -  set git to use the credential memory cache  
 2. `git config --global credential.helper 'cache --timeout=[n]'` - git will cache  for [n] seconds
 
 ### Local
